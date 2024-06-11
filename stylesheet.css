@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.heading{
+    text-align: center; background-color: blueviolet; padding: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+ul{
+margin-left: 32rem;
+margin-top: 3rem;
+}
+li {
+    display: inline-block;
+    margin-left: 5rem;
+    list-style-type: none;
+  text-align: center;
+background-color:palevioletred;
+padding: 1rem;
+}
+.overflow{
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    
+}
+.overflow-hidden{
+    margin-left: 3rem;
+    overflow-y: hidden;
+    height:10rem;
+    width: 20rem;
+    text-transform:initial;
+    border: 5px solid black;
+    background-color: rgb(191, 155, 224);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.overflow-scroll{
+    overflow: scroll;
+    height:10rem;
+    width: 20rem;
+    text-transform:initial;
+    border: 5px solid black;
+    margin-left: 3rem;
+    background-color: rgb(191, 155, 224);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.overflow-visible{
+    overflow: visible;
+    height:10rem;
+    width: 20rem;
+    text-transform:initial;
+    border: 5px solid black;
+    margin-left: 3rem;
+    background-color: rgb(191, 155, 224);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.overflow-auto{
+    margin-left: 3rem;
+    overflow-y: auto;
+    height:10rem;
+    width: 20rem;
+    text-transform:initial;
+    border: 5px solid black;
+    background-color: rgb(191, 155, 224);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.combinators{
+background-color: palevioletred;
+margin-top: 1rem;
+padding: 2rem;
+}
+.decendent-selector p{
+    color:rgb(208, 35, 35);
+}
+.Child-selector > p{
+    color:rgb(208, 35, 35);
+}
+.Sibling-selector + p {
+    color: red;
+  }
+.General-Sibling ~ p{
+    color: red;
+}
+img{
+    width: 50%;
+   margin-left: 28rem;
+   margin-top: 2rem;
+}
+
+.image-container:hover img {
+    
+    content: url('https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg');
+}
+ .p-c::first-letter{
+    color: #ff0000;
+    font-size: 200%;
+}
+p.p-c::first-line{
+    color:purple;
+    
+  }
+
